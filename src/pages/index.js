@@ -78,7 +78,7 @@ const IndexPage = () => (
   <ThemeProvider theme={theme}>
     <Layout>
       <Style />
-      <Title primary>Welcome</Title>
+      <Title primary>- Welcome -</Title>
       <Title as={ReversedTitle}>Welcome</Title>
       <SubTitle fontColor="purple">Subtitle</SubTitle>
       {/* how do I make this purple reference the theme 'purple' */}
